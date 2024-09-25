@@ -18,12 +18,13 @@ pandas = "*"
 numpy = "*"
 matplotlib = "*"
 sympy = "*"
-notebook = "*"
+notebook = "==7.0.7"
 torch = {version = "*", index = "downloadpytorch"}
 torchvision = {version = "*", index = "downloadpytorch"}
 torchaudio = {version = "*", index = "downloadpytorch"}
 seaborn = "*"
 scikit-learn = "*"
+torchinfo = "*"
 
 [dev-packages]
 
